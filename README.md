@@ -170,7 +170,7 @@ Cuerpo de la solicitud:
 ```
   GET /api/order/
   
-  Retorna la información de la/s orden de compra del usuario autenticado.
+  Retorna la información de la/s orden/es de compra del usuario autenticado.
 ```
 
 ***
@@ -356,7 +356,7 @@ El objeto "address" tiene los parámetros:
 ```
   GET /api/cart/admin/:id
   
-  Retorna un carro de compras por el ID del carro.
+  Retorna un carro de compras por el ID del carro de compras.
   
   Parámetro de ruta:
 ```
@@ -370,7 +370,7 @@ El objeto "address" tiene los parámetros:
 ```
   POST /api/cart/admin/:id
   
-  Agrega un producto a un carro de compras por el ID del carro.
+  Agrega un producto a un carro de compras por el ID del carro de compras.
   
   Parámetro de ruta:
 ```
@@ -456,7 +456,7 @@ El objeto "address" tiene los parámetros:
 ```
   GET /api/order/admin/:orderID
   
-  Retorna la información la orden de compra por su ID.
+  Retorna la información de la orden de compra por el ID de la orden de compra.
 
   Parámetro de ruta:
 ```
