@@ -1,0 +1,25 @@
+[2023-04-16T15:10:35.145] [ERROR] default - user not found
+[2023-04-16T15:10:49.514] [ERROR] default - invalid password
+[2023-04-16T15:11:03.268] [ERROR] default - user not found
+[2023-04-16T15:16:34.571] [ERROR] default - Invalid password.
+[2023-04-16T15:16:45.398] [ERROR] default - User not found.
+[2023-04-16T15:18:39.243] [ERROR] default - User not found.
+[2023-04-16T15:19:04.810] [ERROR] default - User not found.
+[2023-04-17T23:28:41.926] [ERROR] default - User not found.
+[2023-04-17T23:28:50.251] [ERROR] default - Invalid password.
+[2023-04-18T20:23:41.420] [ERROR] default - Error: Invalid login: 535 Authentication failed
+    at SMTPConnection._formatError (G:\Programacion\Coderhouse\Backend\finalProyect\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (G:\Programacion\Coderhouse\Backend\finalProyect\node_modules\nodemailer\lib\smtp-connection\index.js:1548:34)
+    at SMTPConnection.<anonymous> (G:\Programacion\Coderhouse\Backend\finalProyect\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (G:\Programacion\Coderhouse\Backend\finalProyect\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)
+    at SMTPConnection._onData (G:\Programacion\Coderhouse\Backend\finalProyect\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (G:\Programacion\Coderhouse\Backend\finalProyect\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535 Authentication failed',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
